@@ -19,10 +19,8 @@ A ideia original é que os objetos sejam modelos tratados da arcada dentária de
 
 <img width="1061" height="541" alt="image" src="https://github.com/user-attachments/assets/cf672e1d-9e2a-4cc9-a40c-b1a6eb671a20" />
 
-## 🎥 Demonstração da Aplicação
 
-[![Demonstração do projeto](https://youtube.com/shorts/luCjmh5NLvo?feature=share)]
-[(https://www.youtube.com/watch?v=ID_DO_VIDEO)]
+
 
 
 
