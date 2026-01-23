@@ -975,6 +975,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ScaleUpLeft",
+                    "type": "Button",
+                    "id": "1e2b17e5-525d-4b7a-92a7-577ddca83f60",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ScaleDownLeft",
+                    "type": "Button",
+                    "id": "ce670d9c-74d6-483d-9728-60e23696603d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1283,6 +1301,28 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "",
                     "action": "Translate Manipulation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6753384c-224b-4608-87cd-08fe5a0fdadc",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScaleUpLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "abfe95e5-5cc4-4b1b-b722-d3cd51f5209c",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScaleDownLeft",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -2068,6 +2108,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ScaleUpRight",
+                    "type": "Button",
+                    "id": "13ea103c-9d55-445a-897b-7c7af02df20f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ScaleDownRight",
+                    "type": "Button",
+                    "id": "ae44e5e2-f4cb-49b7-a5b5-9f1d2dc1de86",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -2376,6 +2434,28 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "",
                     "action": "Translate Manipulation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e972fd9-c921-4032-aa83-e0185436237f",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScaleUpRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "140515f4-d609-4ea3-b9d1-6fa66190392e",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScaleDownRight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 34905222995371821}
   - component: {fileID: 5040202067930585269}
   - component: {fileID: 5392139333796580909}
+  - component: {fileID: 3775369084834768731}
   m_Layer: 0
   m_Name: inferior 05
   m_TagString: Untagged
@@ -205,6 +206,62 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
+--- !u!114 &3775369084834768731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5891397041424454273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dabe0237ad00934abcf86db186ff8e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleSpeed: 0.05
+  minScale: 0.1
+  maxScale: 5
+  scaleUp:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Up
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 9cc84920-8fa7-4a26-80e3-960ebec219eb
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 2455e3d0-21f3-4628-af27-2d460b98af83
+        m_Path: <XRController>{RightHand}/{SecondaryButton}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Scale Up
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  scaleDown:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Down
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 4336c461-c6e8-49e0-8427-28d8efdf7a65
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 77da2913-d95b-475b-b60c-8844f6598618
+        m_Path: <XRController>{RightHand}/{PrimaryButton}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Scale Down
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  temp: {fileID: 5891397041424454273}
 --- !u!1001 &5119033116522916301
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4134808647660520641}
   - component: {fileID: 1757017486799369728}
   - component: {fileID: 8067347908659178536}
+  - component: {fileID: 2224033135639448813}
   m_Layer: 0
   m_Name: ID100022i
   m_TagString: Untagged
@@ -205,6 +206,62 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 68.09637, y: 18.522558, z: 52.635017}
   m_Center: {x: 0.62228596, y: -2.6001074, z: -2.7817817}
+--- !u!114 &2224033135639448813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3631626502388804496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dabe0237ad00934abcf86db186ff8e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleSpeed: 0.05
+  minScale: 0.1
+  maxScale: 5
+  scaleUp:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Up
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 373d3815-4963-4bc6-8a71-c73b299be49e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 3f93a7f6-3dc4-4044-a3bf-2aaa69dce6e9
+        m_Path: <XRController>{RightHand}/{SecondaryButton}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Scale Up
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  scaleDown:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Down
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 0e890b18-f9d3-497e-810f-7e38951360a3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 5d63c331-0af3-4948-b110-a83d39d343dc
+        m_Path: <XRController>{RightHand}/{PrimaryButton}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Scale Down
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  temp: {fileID: 3631626502388804496}
 --- !u!1001 &7868643691181307529
 PrefabInstance:
   m_ObjectHideFlags: 0
