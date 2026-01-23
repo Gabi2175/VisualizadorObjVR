@@ -20,7 +20,7 @@ public class TwoHandRotationLock : MonoBehaviour
 
     }
 
-    void LateUpdate()
+    /*void LateUpdate()
     {
         if (grab.interactorsSelecting.Count == 2)
         {
@@ -41,7 +41,35 @@ public class TwoHandRotationLock : MonoBehaviour
            
         }
 
+    }*/
+
+    void LateUpdate()
+    {
+        int currentCount = grab.interactorsSelecting.Count;
+
+        
+        if (currentCount == 2)
+        {
+            grab.trackPosition = false;
+            grab.trackRotation = false;
+        }
+        else
+        {
+            grab.trackPosition = true;
+            grab.trackRotation = true;
+
+          
+            if (lastInteractorCount == 2 && currentCount == 1)
+            {
+                var interactor = grab.interactorsSelecting[0];
+
+                grab.interactionManager.SelectExit(interactor, grab);
+            }
+        }
+
+        lastInteractorCount = currentCount;
     }
+
 
     void HandleSelectEnter(SelectEnterEventArgs args)
     {
