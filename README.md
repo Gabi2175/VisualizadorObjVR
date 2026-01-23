@@ -21,8 +21,8 @@ A ideia original é que os objetos sejam modelos tratados da arcada dentária de
 
 ## 🎥 Demonstração da Aplicação
 
-[![Demonstração do projeto](https://img.youtube.com/vi/ID_DO_VIDEO/0.jpg)]
-[(https://www.youtube.com/watch?v=ID_DO_VIDEO)](https://youtube.com/shorts/luCjmh5NLvo?feature=share)
+[![Demonstração do projeto](https://youtube.com/shorts/luCjmh5NLvo?feature=share)]
+[(https://www.youtube.com/watch?v=ID_DO_VIDEO)]
 
 
 
